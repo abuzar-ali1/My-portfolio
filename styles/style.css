@@ -1,0 +1,119 @@
+* {
+  font-family: "inter", sans-serif;
+}
+:root {
+  --primary_color: #ff5588;
+}
+.background {
+  background-color: #f6f0f2;
+
+}
+
+.bg-none{
+  background: none;
+  outline: none;
+}
+.text-hover:hover{
+  color: #0b5ed7 !important;
+}
+.name-details {
+  font-size: 55px;
+}
+.text-pink{
+  color: var(--primary_color) !important;
+}
+
+.numbers h1 {
+  color: var(--primary_color);
+  font-size: 55px;
+  cursor: pointer;
+}
+.About-section span {
+  font-size: 20px;
+  color: var(--primary_color);
+}
+.About-section h1 {
+  font-size: 40px;
+  margin: 20px 0px;
+}
+.About-section p {
+  margin: 0px 0px 130px 0px;
+  font-size: 21px;
+}
+.Career-section {
+  margin-bottom: 50px;
+}
+
+.Career-section span {
+  font-size: 20px;
+  color: var(--primary_color);
+}
+.Career-section p {
+  color: #333333;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.Career-section h1 {
+  margin: 20px 0px;
+}
+.services {
+  margin: 190px 0px 50px 0px;
+}
+.services span {
+  font-size: 20px;
+  color: var(--primary_color);
+}
+.services h1 {
+  margin: 15px 0px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.box-1 {
+  border: 1px solid #ff5588;
+
+  cursor: pointer;
+}
+.skills {
+  margin: 120px 0px 0px 0px;
+}
+
+.client {
+  border: 1px solid;
+  width: 600px;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+.client p {
+  font-size: 20px;
+}
+.client-details img {
+    
+cursor: pointer;
+
+}
+.client-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+.titles {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.titles h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.brans-name span {
+  font-size: 20px;
+  color: var(--primary_color);
+
+}
